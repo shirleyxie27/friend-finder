@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled Bootstraap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <br>
+    <h2>Survey Questions</h2>
+    <hr>
+
+<!-- About -->
+<div class="col-lg-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">About You</h3>
+      </div>
+
+      <div class="panel-body">
+          <form class="form-horizontal">
+              <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-1 control-label glyphicon glyphicon-user"></label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="Name (Required)">
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="image URL" class="col-sm-1 control-label glyphicon glyphicon-picture"></label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="photo" placeholder="Link to Photo Image (Required)">
+                  </div>
+              </div>
+          </form>
+      </div>
+    </div>
+        <div class="row">
+ <!-- Questions -->
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Survey Questions</strong></h3>
+                    </div>
+                   
+                    <div class="panel-body">
+                        <form method="POST" role="form">
+
+                          <h4>1. I like to take risks and challenges excite you.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q1">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+
+                          <h4>2. Generally speaking, I am a creative person.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q2">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+
+                          <h4>3. I enjoy meeting new people.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q3">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>4. I like helping people..</h4>
+                          <select data-placeholder="" class="chosen-select" id="q4">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+
+                          <h4>5. I sometimes make mistakes.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q5">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>6. I enjoy repairing things.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q6">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>7. I like dogs.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q7">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>8. I like to travel.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q8">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>9. I ike being around people.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q9">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+
+                          <hr>
+                          
+                          <h4>10. I like sports.</h4>
+                          <select data-placeholder="" class="chosen-select" id="q10">
+                            <option value="select">Select an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                          </select>
+                        </form>
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Hanasandy/FriendFinder">GitHub Repo</a></p>
+    </div>
+
+<!-- Modal -->
+  <div id="bestFriendModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><strong>Here is your new friend!!</strong></h2>
+            </div>
+
+            <div class="modal-body">
+              <h2 id="matchName"></h2>
+              <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+            </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+<!-- JavaScript -->
+     <script type="text/javascript">
+    //<script type="text/javascript">
+  $(document).ready(function() {
+        $("#add-btn").on("click", function() {
+            event.preventDefault();
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [  $("#q1").val().trim(), 
+                           $("#q2").val().trim(), 
+                           $("#q3").val().trim(), 
+                           $("#q4").val().trim(), 
+                           $("#q5").val().trim(), 
+                           $("#q6").val().trim(), 
+                           $("#q7").val().trim(), 
+                           $("#q8").val().trim(), 
+                           $("#q9").val().trim(), 
+                           $("#q10").val().trim() ]
+             }; //newFriend
+             
+               console.log(newFriend);
+               var currentURL = window.location.origin;
+             $.post(currentURL + "/api/friends", newFriend).done(function(data) {
+                    //console.log(data);
+                    //alert("Adding character...");
+                    $("#matchName").text(data.name);
+                    $("#matchImg").attr("src", data.photo);
+                    $("#bestFriendModal").modal();
+                    
+              }); //end of .post
+                    $("#name").val(" ");
+                    $("#photo").val(" ");
+                    [ $("#q1").val(" "), 
+                      $("#q2").val(" "), 
+                      $("#q3").val(" "), 
+                      $("#q4").val(" "), 
+                      $("#q5").val(" "), 
+                      $("#q6").val(" "), 
+                      $("#q7").val(" "), 
+                      $("#q8").val(" "), 
+                      $("#q9").val(" "), 
+                      $("#q10").val(" ") ]
+        }); //end of add-btn on click
+   });//end of document.ready      
+  </script>
+
+</body>
+
+</html>
